@@ -1,0 +1,23 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "celestia_legacy_cel",
+      "camelcase": "CelestiaLegacyCel",
+      "scope": "source.celestia-legacy-cel",
+      "file-types": [
+        "cel"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "description": "Tree-sitter parser family for Legacy CEL script documents",
+    "authors": [
+      {
+        "name": "Tobias Feigel"
+      }
+    ],
+    "license": "MIT"
+  }
+}
